@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -a1p | grep -E '^(\.\/|[^.]*[a-zA-Z0-9]+\/)$' | LC_COLLATE=C sort -df | tr '\n' ','; echo
