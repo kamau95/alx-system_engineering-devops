@@ -1,2 +1,2 @@
 #!/bin/bash
-cat input.txt | tr -d 'cC' > output.txt
+tr -d "cC"
