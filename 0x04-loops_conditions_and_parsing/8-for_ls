@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#prints files in a directory and emits the first part or word before the dash
+files=$(ls)
+for file in $files; do
+	echo "$file" | cut -d'-' -f2-
+done
