@@ -12,5 +12,5 @@ trap handle_signal SIGTERM
 # Loop indefinitely
 while true; do
 	echo "To infinity and beyond"
-	sleep 1
+	sleep 2
 done
