@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#script to handle a sigtem signal
+# function to handle sigtem
+handle_signal () {
+echo "I am invincible!!!"
+exit 0
+}
+
+# Trap the signals and call the function
+trap handle_signal SIGTERM
+
+# Loop indefinitely
+while true; do
+	echo "To infinity and beyond"
+	sleep 1
+done
