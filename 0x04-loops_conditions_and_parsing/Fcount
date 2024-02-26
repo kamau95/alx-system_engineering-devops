@@ -1,0 +1,6 @@
+#!/bin/bash
+n=`ls -1 | wc -l` 
+if [ $n -lt 5 ]
+then 
+printf "There are less than ten files here \n" 
+fi
