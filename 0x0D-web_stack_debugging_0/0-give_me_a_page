@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#check status of apache server
+#then start it
+docker exec -it 4939a2d9fe73 service apache2 status
+docker exec -it 4939a2d9fe73 service apache2 start
