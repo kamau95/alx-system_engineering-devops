@@ -1,0 +1,1 @@
+A custom Nginx response header is an additional HTTP header that you can configure Nginx, a popular web server, to include in its responses to client requests. These headers provide extra information about the server or the response itself and can be useful for various purposes such as security, debugging, or custom application requirements.
