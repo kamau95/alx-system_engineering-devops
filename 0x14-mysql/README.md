@@ -1,0 +1,1 @@
+One never knows what might happen to a database.  It might get corrupted due to some bad code, or bad hardware.  It might even get lost due to a data center fire, flooding, or some other catastrophic event.  In order to recover from data corruption or total loss of a database you need to back up your databases based on some requirements.
