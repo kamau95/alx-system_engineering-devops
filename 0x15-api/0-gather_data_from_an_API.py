@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Libraries for making HTTP requests and handling command-line arguments.
-"""
+""" Libraries for making HTTP requests and handling command-line arguments."""
 import sys
 import requests
 
