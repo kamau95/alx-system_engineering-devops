@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ Libraries for making HTTP requests and handling command-line arguments."""
-import sys
 import requests
+import sys
 
 # settting the api endpoint
 if __name__ == '__main__':
